@@ -3,8 +3,38 @@
 $primary: #4f35d6;
 $secondary: #000ac6;
 $black: #212121;
+$grey: #f6f6f6;
+h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
 .main {
     background-color: $primary;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    .fa {
+        color: $primary;
+        margin-right: 10px;
+    }
+}
+
+.form {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.grey {
+    background-color: $grey;
 }
 
 .navbar {
@@ -20,14 +50,6 @@ $black: #212121;
 .jumbotron {
     background-color: $primary;
     color: white;
-    h1 {
-        font-family: 'Poppins';
-        font-weight: 600;
-    }
-    p {
-        font-family: 'Poppins';
-        font-weight: 300;
-    }
 }
 
 .button {
@@ -53,5 +75,15 @@ $black: #212121;
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f35d6', endColorstr='#7db9e8', GradientType=0);
         /* IE6-9 */
+    }
+}
+
+.try__app {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    img {
+        height: 120px;
     }
 }
