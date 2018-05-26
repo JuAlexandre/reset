@@ -16,7 +16,8 @@ const IndexPage = () => (
         <Jumbo />
       </Container>
     </Container>
-    <Container>
+    <Container id="cocon">
+      >
       <Prototype />
     </Container>
     <Container className="pt-5 pb-0" id="features">
