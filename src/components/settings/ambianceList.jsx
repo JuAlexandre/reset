@@ -16,9 +16,6 @@ export default class SimpleSlider extends React.Component {
     };
     return (
       <div className="text-center">
-        <h2>
-          <strong>RESET</strong> SETTINGS
-        </h2>
         <Slider {...settings}>
           <Ambiance
             image="http://via.placeholder.com/650x650"
