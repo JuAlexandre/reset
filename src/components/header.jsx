@@ -30,7 +30,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar sticky className="navbar" expand="md">
+        <Navbar dark expand="md" expand="md" className="navbar">
           <NavbarBrand className="navbar__link" href="/">
             Reset
           </NavbarBrand>
@@ -43,13 +43,28 @@ export default class Header extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="navbar__link" href="#features">
-                  Features
+                <NavLink className="navbar__link" href="#cocon">
+                  Le concon
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="navbar__link" href="#review">
-                  Review
+                <NavLink className="navbar__link" href="#features">
+                  Fonctionnalités
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="navbar__link" href="#try">
+                  Télecharger
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="navbar__link" href="#avis">
+                  Avis
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="navbar__link" href="#contact">
+                  Contact
                 </NavLink>
               </NavItem>
             </Nav>
