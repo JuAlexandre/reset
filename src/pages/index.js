@@ -5,6 +5,7 @@ import Header from './../components/header';
 import Jumbo from './../components/jumbotron';
 import TryApp from './../components/tryapp';
 import Contact from './../components/contact';
+import ReviewSlider from './../components/reviewSlider';
 
 const IndexPage = () => (
   <div>
@@ -14,18 +15,16 @@ const IndexPage = () => (
         <Jumbo />
       </Container>
     </Container>
-    <Container>
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
+    <Container className="text-center pt-5 pb-5">
+      <ReviewSlider />
     </Container>
     <Container fluid className="main">
-      <Container>
+      <Container className="pt-5 pb-5">
         <TryApp />
       </Container>
     </Container>
     <Container fluid className="grey">
-      <Container>
+      <Container className="pt-5 pb-5">
         <Contact />
       </Container>
     </Container>

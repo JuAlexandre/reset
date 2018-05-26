@@ -9,6 +9,7 @@
     "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0",
     "gatsby": "^1.9.247",
+    "gatsby-cli": "^1.1.52",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "^1.0.26",
@@ -16,6 +17,7 @@
     "react-dom": "^16.4.0",
     "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0",
+    "react-slick": "^0.23.1",
     "reactstrap": "^6.0.1"
   },
   "keywords": [

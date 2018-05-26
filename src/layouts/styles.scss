@@ -87,3 +87,29 @@ p {
         height: 120px;
     }
 }
+
+.review {
+    p {
+        font-style: italic;
+        font-family: 'Open sans';
+        font-size: 14px;
+    }
+    .iconQuote {
+        color: $primary;
+        position: relative;
+        top: -5px;
+        left: -5px;
+    }
+    .rounded-image {
+        border-radius: 50%;
+    }
+    h4 {
+        font-family: 'Open sans';
+        font-weight: bold;
+        font-size: 18px;
+    }
+    h5 {
+        font-family: 'Open sans';
+        font-size: 14px;
+    }
+}
