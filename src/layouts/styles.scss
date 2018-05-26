@@ -138,3 +138,11 @@ p {
         }
     }
 }
+
+//couleur slider 
+.rangeslider__fill { background-color: $primary !important; }
+
+//couleur toggle
+.react-toggle--checked .react-toggle-track {
+    background-color: $primary !important;
+  }
