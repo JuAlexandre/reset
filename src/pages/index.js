@@ -16,21 +16,21 @@ const IndexPage = () => (
         <Jumbo />
       </Container>
     </Container>
-    <Container className="text-center pt-5 pb-5">
-      <ReviewSlider />
+    <Container className="pt-5 pb-5">
+      <Features />
     </Container>
     <Container fluid className="main">
       <Container className="pt-5 pb-5">
         <TryApp />
       </Container>
     </Container>
+    <Container className="text-center pt-5 pb-5">
+      <ReviewSlider />
+    </Container>
     <Container fluid className="grey">
       <Container className="pt-5 pb-5">
         <Contact />
       </Container>
-    </Container>
-    <Container>
-      <Features />
     </Container>
   </div>
 );

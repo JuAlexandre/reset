@@ -27,28 +27,34 @@ const Contact = () => {
           <p>
             <ul className="list">
               <li>
-                <FA fixedWidth name="map-marker" />LAB’O Village<br /> 1 Avenue
-                du Champ de Mars<br />45074 Orléans
+                <FA fixedWidth name="map-marker" className="mb-3" />LAB’O
+                Village
               </li>
               <li>
-                <FA fixedWidth name="phone" />01 12 19 21 92
+                <FA fixedWidth name="phone" className="mb-3" />01 12 19 21 92
               </li>
               <li>
-                <FA fixedWidth name="envelope" />hello@reset.co
+                <FA fixedWidth name="envelope" className="mb-3" />hello@reset.co
               </li>
             </ul>
           </p>
         </Col>
         <Col md={6}>
           <Form className="form">
-            <FormGroup>
-              <Label for="exampleEmail">Email</Label>
-              <Input type="email" name="email" id="email" />
-            </FormGroup>
-            <FormGroup>
-              <Label for="exampleEmail">Numéro de télephone</Label>
-              <Input type="number" name="number" id="number" />
-            </FormGroup>
+            <Row>
+              <Col md={6}>
+                <FormGroup>
+                  <Label for="exampleEmail">Email</Label>
+                  <Input type="email" name="email" id="email" />
+                </FormGroup>
+              </Col>
+              <Col md={6}>
+                <FormGroup>
+                  <Label for="exampleEmail">Numéro de télephone</Label>
+                  <Input type="number" name="number" id="number" />
+                </FormGroup>
+              </Col>
+            </Row>
             <FormGroup>
               <Label for="exampleSelect">Sujet</Label>
               <Input type="select" name="select" id="exampleSelect">

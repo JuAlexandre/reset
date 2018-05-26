@@ -30,7 +30,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className="navbar" expand="md">
+        <Navbar sticky className="navbar" expand="md">
           <NavbarBrand className="navbar__link" href="/">
             Reset
           </NavbarBrand>
