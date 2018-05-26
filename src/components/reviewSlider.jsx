@@ -17,27 +17,25 @@ export default class SimpleSlider extends React.Component {
     };
     return (
       <div>
-        <h2>
-          <strong>CUSTOMER</strong> REVIEWS
-        </h2>
+        <h2>Ils en parlent mieux que nous</h2>
         <Slider {...settings}>
           <Review
-            img="http://via.placeholder.com/100x100"
-            name="John DOE"
-            role="role0"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam voluptatibus aliquam aperiam dolor in quia enim non quidem repellendus velit voluptatum consectetur inventore quasi porro mollitia, sit vero asperiores!"
+            img="./static/imgs/gilles_renouard.jpg"
+            name="Gilles Renouard"
+            role="Responsable RH - Christian Dior"
+            text="Un concept original pour développer l’efficacité de nos équipes."
           />
           <Review
-            img="http://via.placeholder.com/100x100"
-            name="Zen HITUDE"
-            role="role1"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam voluptatibus aliquam aperiam dolor in quia enim non quidem repellendus velit voluptatum consectetur inventore quasi porro mollitia, sit vero asperiores!"
+            img="./static/imgs/yannick_bernard.jpg"
+            name="Yannick Bernard"
+            role="Responsable Service Clients - L’Oréal Luxe France"
+            text="Hâte de découvrir et tester ce cocon après mon déjeuner (si j’en avais un) !"
           />
           <Review
-            img="http://via.placeholder.com/100x100"
-            name="Roger RABBIT"
+            img="./static/imgs/baptiste_pame.jpg"
+            name="Baptiste Pame"
             role="role2"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam voluptatibus aliquam aperiam dolor in quia enim non quidem repellendus velit voluptatum consectetur inventore quasi porro mollitia, sit vero asperiores!"
+            text="Lorem ipsum"
           />
         </Slider>
       </div>
