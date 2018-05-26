@@ -17,9 +17,24 @@ export default class SimpleSlider extends React.Component {
     };
     return (
       <Slider {...settings}>
-        <Review />
-        <Review />
-        <Review />
+      <Review 
+          img="http://via.placeholder.com/100x100" 
+          name="John DOE" 
+          role="role0" 
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam voluptatibus aliquam aperiam dolor in quia enim non quidem repellendus velit voluptatum consectetur inventore quasi porro mollitia, sit vero asperiores!"
+        />
+        <Review 
+          img="http://via.placeholder.com/100x100" 
+          name="Zen HITUDE" 
+          role="role1" 
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam voluptatibus aliquam aperiam dolor in quia enim non quidem repellendus velit voluptatum consectetur inventore quasi porro mollitia, sit vero asperiores!"
+        />
+        <Review 
+          img="http://via.placeholder.com/100x100" 
+          name="Roger RABBIT" 
+          role="role2" 
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam voluptatibus aliquam aperiam dolor in quia enim non quidem repellendus velit voluptatum consectetur inventore quasi porro mollitia, sit vero asperiores!"
+        />
       </Slider>
     );
   }
