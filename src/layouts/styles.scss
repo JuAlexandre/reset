@@ -113,3 +113,28 @@ p {
         font-size: 14px;
     }
 }
+
+.features {
+    color: #555555;
+    font-family: 'Open Sans';
+    & h1,
+    h5 {
+        font-family: 'Poppins';
+        font-weight: 400;
+        color: $black;
+    }
+    & .icon {
+        font-size: 50px;
+        color: $black;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+        &:hover {
+            color: white;
+            background-color: $primary;
+        }
+    }
+}

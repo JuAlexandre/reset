@@ -6,6 +6,7 @@ import Jumbo from './../components/jumbotron';
 import TryApp from './../components/tryapp';
 import Contact from './../components/contact';
 import ReviewSlider from './../components/reviewSlider';
+import Features from '../components/features';
 
 const IndexPage = () => (
   <div>
@@ -27,6 +28,9 @@ const IndexPage = () => (
       <Container className="pt-5 pb-5">
         <Contact />
       </Container>
+    </Container>
+    <Container>
+      <Features />
     </Container>
   </div>
 );
