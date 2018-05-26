@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 import Header from './../components/header';
 import Jumbo from './../components/jumbotron';
+import Features from '../components/features';
 
 const IndexPage = () => (
   <div>
@@ -13,9 +14,7 @@ const IndexPage = () => (
       </Container>
     </Container>
     <Container>
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
+      <Features />
     </Container>
   </div>
 );

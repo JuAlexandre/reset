@@ -55,3 +55,14 @@ $black: #212121;
         /* IE6-9 */
     }
 }
+
+.features {
+    color: #555555;
+    font-family: 'Open Sans';
+
+    & h1, h5 {
+        font-family: 'Poppins';
+        font-weight: 400;
+        color: #212121;
+    }
+}
