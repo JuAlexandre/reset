@@ -6,7 +6,7 @@ import NavbarApp from './../components/navbarApp';
 const HomepagePage = () => (
     <div className='homepage'>
         <div className="title">
-            <h4>RESTE</h4>
+            <h4>RESET</h4>
         </div>
         <Container>
             <Row className='d-flex justify-content-center mt-5 mb-3'>
