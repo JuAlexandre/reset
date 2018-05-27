@@ -8,7 +8,7 @@ const Layout = ({ children, data }) => (
   <div>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>My Title</title>
+      <title>RESET - Votre cocon de repos</title>
       <link
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         rel="stylesheet"

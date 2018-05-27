@@ -160,13 +160,24 @@ p {
     }
 }
 
-//couleur slider 
-.rangeslider__fill { background-color: $primary !important; }
+//couleur slider
+.rangeSlider {
+    max-width: 90vw;
+}
+
+.rangeslider__fill {
+    background-color: $primary !important;
+}
 
 //couleur toggle
 .react-toggle--checked .react-toggle-track {
     background-color: $primary !important;
-  }
+}
+
+.rowfix {
+    padding: -15px;
+}
+
 .contact {
     a {
         color: $black;
@@ -192,6 +203,7 @@ p {
         color: $primary;
     }
 }
+
 @media (max-width: 535px) {
     .mobile {
         display: block;
@@ -207,5 +219,17 @@ p {
     }
     .desktop {
         display: block;
+    }
+}
+
+.title {
+    background-color: $primary;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    color: white;
+    h4 {
+        text-transform: uppercase
     }
 }

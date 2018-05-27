@@ -6,10 +6,10 @@ import Ambiance from './ambiance';
 export default class SimpleSlider extends React.Component {
   render() {
     var settings = {
-      dots: false,
+      dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 1.3,
+      slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
       autoplay: false,
@@ -17,21 +17,9 @@ export default class SimpleSlider extends React.Component {
     return (
       <div className="text-center">
         <Slider {...settings}>
-          <Ambiance
-            image="http://via.placeholder.com/650x650"
-            title="Zen"
-            description="Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme"
-          />
-          <Ambiance
-            image="http://via.placeholder.com/650x650"
-            title="Nature"
-            description="Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme"
-          />
-          <Ambiance
-            image="http://via.placeholder.com/650x650"
-            title="Océanique"
-            description="Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme"
-          />
+          <Ambiance image="./static/imgs/1.png" title="Nature" />
+          <Ambiance image="./static/imgs/2.png" title="Océan" />
+          <Ambiance image="./static/imgs/3.png" title="Zen" />
         </Slider>
       </div>
     );
