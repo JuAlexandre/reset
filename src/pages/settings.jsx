@@ -15,7 +15,7 @@ const SettingPage = () => (
       <h4>Personnaliser</h4>
       <p>Choisissez votre ambiance</p>
     </div>
-    -<Container fluid className="marginBottom">
+    <Container fluid className="marginBottom">
       <Row>
         <Col>
           <AmbianceList />
