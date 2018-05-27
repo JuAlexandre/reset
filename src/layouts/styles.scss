@@ -296,3 +296,7 @@ p {
 .progress>div {
     background-color: $primary;
 }
+
+.react-calendar__tile--active:enabled:hover, button.react-calendar__tile--active:enabled:focus, .react-calendar__tile--active {
+    background-color: $primary !important;
+}
