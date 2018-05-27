@@ -7,6 +7,7 @@
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/react-fontawesome": "^0.0.20",
     "bootstrap": "^4.1.1",
+    "chart.js": "^2.7.2",
     "font-awesome": "^4.7.0",
     "gatsby": "^1.9.247",
     "gatsby-cli": "^1.1.52",
@@ -17,12 +18,14 @@
     "popper.js": "^1.14.3",
     "react": "^16.4.0",
     "react-calendar": "^2.15.0",
+    "react-chartjs-2": "^2.7.2",
     "react-dom": "^16.4.0",
     "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0",
     "react-rangeslider": "^2.2.0",
     "react-slick": "^0.23.1",
     "react-toggle": "^4.0.2",
+    "react-vis": "^1.9.3",
     "reactstrap": "^6.0.1"
   },
   "keywords": [

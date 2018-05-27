@@ -6,7 +6,7 @@ const TryApp = () => {
     <div className="try__app">
       <h2>Tester notre application</h2>
       <p>
-        <Button className="button" color="primary">
+        <Button href="/calendar" className="button" color="primary">
           Ouvrir l'application
         </Button>
       </p>
