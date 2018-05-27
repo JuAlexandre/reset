@@ -296,3 +296,17 @@ p {
 .progress>div {
     background-color: $primary;
 }
+
+.loginBody {
+    color: white;
+    background-color: $primary;
+    height: 100vh;
+
+    & .loginLogo {
+        height: 150px;
+    }
+
+    & hr {
+        border-color: white;
+    }
+}
