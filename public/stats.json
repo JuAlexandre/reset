@@ -1,0 +1,84 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-413d99536c971e44ebf6.js",
+      "component---src-pages-index-js-413d99536c971e44ebf6.js.map"
+    ],
+    "component---src-pages-calendar-jsx": [
+      "component---src-pages-calendar-jsx-135b2bbd124c507158a1.js",
+      "component---src-pages-calendar-jsx-135b2bbd124c507158a1.js.map"
+    ],
+    "component---src-pages-login-jsx": [
+      "component---src-pages-login-jsx-a5a442314c68ee6d57ad.js",
+      "component---src-pages-login-jsx-a5a442314c68ee6d57ad.js.map"
+    ],
+    "path---settings": [
+      "path---settings-a0e39f21c11f6a62c5ab.js",
+      "path---settings-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---homepage": [
+      "path---homepage-a0e39f21c11f6a62c5ab.js",
+      "path---homepage-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----cac63ff5c1b42581353c.js",
+      "path----cac63ff5c1b42581353c.js.map"
+    ],
+    "path---monitoring": [
+      "path---monitoring-a0e39f21c11f6a62c5ab.js",
+      "path---monitoring-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-44fabf586066f5c188da.js",
+      "component---src-layouts-index-js-44fabf586066f5c188da.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-7635c1c2d3486a8f7725.js",
+      "build-js-styles.css",
+      "commons-7635c1c2d3486a8f7725.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---login": [
+      "path---login-a0e39f21c11f6a62c5ab.js",
+      "path---login-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-monitoring-jsx": [
+      "component---src-pages-monitoring-jsx-c28f439f990d50cafa9d.js",
+      "component---src-pages-monitoring-jsx-c28f439f990d50cafa9d.js.map"
+    ],
+    "path---calendar": [
+      "path---calendar-a0e39f21c11f6a62c5ab.js",
+      "path---calendar-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-c6d9487ac5f6ddb59783.js",
+      "build-js-styles.css",
+      "app-c6d9487ac5f6ddb59783.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-homepage-jsx": [
+      "component---src-pages-homepage-jsx-21f2f5a2aaf918b64eee.js",
+      "component---src-pages-homepage-jsx-21f2f5a2aaf918b64eee.js.map"
+    ],
+    "component---src-pages-settings-jsx": [
+      "component---src-pages-settings-jsx-2481e0d84585df32b6bb.js",
+      "component---src-pages-settings-jsx-2481e0d84585df32b6bb.js.map"
+    ]
+  }
+}
