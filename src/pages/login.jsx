@@ -22,7 +22,7 @@ const LoginPage = () => (
                 <div className='d-flex justify-content-center'>
                     <Row>
                         <Col>
-                            <Link to="/calendar">
+                            <Link to="/homepage">
                                 <Button className='button'>Se connecter</Button>
                             </Link>
                         </Col>

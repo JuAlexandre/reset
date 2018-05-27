@@ -310,3 +310,15 @@ p {
         border-color: white;
     }
 }
+
+.primaryColor {
+    color: $primary;
+    font-weight: bold;
+}
+
+.homepage {
+    & h4 {
+        font-family: 'Poppins';
+        font-weight: 400;
+    }
+}
