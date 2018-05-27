@@ -8,13 +8,23 @@ import AmbianceList from './../components/settings/ambianceList';
 import LightSlider from './../components/settings/lightSlider';
 import MusiqueDropdown from './../components/settings/musiqueDropdown';
 import NavbarApp from './../components/navbarApp';
+import Utilisateur from './../components/utilisateur';
 
 const SettingPage = () => (
   <div>
-    <div className="title">
-      <h4>Personnaliser</h4>
-      <p>Choisissez votre ambiance</p>
-    </div>
+  <Container fluid className="title">
+      <Row>
+        <Col col={10}>
+          <h4>Ambiance</h4>
+          <p>Choisissez votre ambiance</p>
+        </Col>
+        <Col col={2} className="d-flex align-items-center justify-content-end pr-5">
+          <Row>
+            <Utilisateur />
+          </Row>
+        </Col>
+      </Row>
+    </Container>
     <Container fluid className="marginBottom">
       <Row>
         <Col>

@@ -322,3 +322,17 @@ p {
         font-weight: 400;
     }
 }
+.react-calendar__tile--active {
+    background-color: $primary !important;
+    &:enabled:focus,
+    &:enabled:hover {
+        background-color: $primary !important;
+    }
+}
+
+a {
+    color: white;
+    &:hover {
+        color: white;
+    }
+}
