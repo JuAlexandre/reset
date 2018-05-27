@@ -20,7 +20,7 @@ const MonitoringPage = () => (
         </Col>
       </Row>
     </Container>
-    <Container fluid>
+    <Container fluid className="marginBottom">
       <div className="mb-3">
         <div className="d-flex justify-content-between align-items-baseline">
           <span>
@@ -50,7 +50,7 @@ const MonitoringPage = () => (
       </div>
       <Lol />
     </Container>
-    <NavbarApp className="marginBottom" />
+    <NavbarApp />
   </div>
 );
 
