@@ -15,7 +15,7 @@ const SettingPage = () => (
       <h4>Personnaliser</h4>
       <p>Choisissez votre ambiance</p>
     </div>
-    <Container fluid>
+    -<Container fluid className="marginBottom">
       <Row>
         <Col>
           <AmbianceList />
@@ -26,7 +26,7 @@ const SettingPage = () => (
           <span>
             <strong>Lumière</strong>
           </span>
-          <Toggle icons={false} onChange={() => {}} />
+          <Toggle icons={false} onChange={() => { }} />
         </Col>
       </Row>
       <Row>
@@ -39,7 +39,7 @@ const SettingPage = () => (
           <span>
             <strong>Ambiance sonore</strong>
           </span>
-          <Toggle icons={false} onChange={() => {}} />
+          <Toggle icons={false} onChange={() => { }} />
         </Col>
       </Row>
       <Row>
