@@ -233,3 +233,30 @@ p {
         text-transform: uppercase
     }
 }
+
+.navbarApp {
+    position: fixed;
+    bottom: 0;
+    background-color: $primary;
+    color: white;
+    height: 80px;
+    border-top: white solid 2px;
+
+    .row {
+        height: 100%;
+
+        a {
+            color: white;
+        }
+
+        .side {
+            height: 100%;
+        }
+    
+        .center {
+            height: 100%;
+            border-left: white solid 2px;
+            border-right: white solid 2px;
+        }
+    }
+}

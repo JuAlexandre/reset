@@ -7,6 +7,7 @@ import 'react-toggle/style.css';
 import AmbianceList from './../components/settings/ambianceList';
 import LightSlider from './../components/settings/lightSlider';
 import MusiqueDropdown from './../components/settings/musiqueDropdown';
+import NavbarApp from './../components/navbarApp';
 
 const SettingPage = () => (
   <div>
@@ -52,6 +53,7 @@ const SettingPage = () => (
         </Col>
       </Row>
     </Container>
+    <NavbarApp />
   </div>
 );
 
