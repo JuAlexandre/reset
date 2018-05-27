@@ -1,60 +1,46 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'reactstrap';
-import RangeSlider from 'react-rangeslider';
-import Toggle from 'react-toggle';
-import 'react-toggle/style.css';
-
-import AmbianceList from './../components/settings/ambianceList';
-import LightSlider from './../components/settings/lightSlider';
-import MusiqueDropdown from './../components/settings/musiqueDropdown';
+import { Container, Row, Col, Button, Progress } from 'reactstrap';
 import NavbarApp from './../components/navbarApp';
+import Lol from './../components/lol';
 
-const SettingPage = () => (
+const MonitoringPage = () => (
   <div>
     <div className="title">
       <h4>Monitoring</h4>
       <p>Suivez et analysez votre sommeil</p>
     </div>
     <Container fluid>
-      <Row>
-        <Col>
-          <AmbianceList />
-        </Col>
-      </Row>
-      <Row className="mt-5 rowfix">
-        <Col xs={12} className="d-flex justify-content-between">
+      <div className="mb-3">
+        <div className="d-flex justify-content-between align-items-baseline">
           <span>
-            <strong>Lumière</strong>
+            <strong>Efficacité du sommeil</strong>
           </span>
-          <Toggle icons={false} onChange={() => {}} />
-        </Col>
-      </Row>
-      <Row>
-        <Col className="mb-3">
-          <LightSlider />
-        </Col>
-      </Row>
-      <Row className="mt-3">
-        <Col xs={12} className="d-flex justify-content-between mb-3">
+          <span className="nb">92%</span>
+        </div>
+        <Progress className="progress" value={92} />
+      </div>
+      <div className="mb-3">
+        <div className="d-flex justify-content-between align-items-baseline">
           <span>
-            <strong>Ambiance sonore</strong>
+            <strong>Rythme cardiaque moyen</strong>
           </span>
-          <Toggle icons={false} onChange={() => {}} />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <MusiqueDropdown />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <LightSlider />
-        </Col>
-      </Row>
+          <span className="nb">121PPM</span>
+        </div>
+        <Progress className="progress" value={55} />
+      </div>
+      <div className="mb-3">
+        <div className="d-flex justify-content-between align-items-baseline">
+          <span>
+            <strong>Tension musculaire</strong>
+          </span>
+          <span className="nb">98</span>
+        </div>
+        <Progress className="progress" value={75} />
+      </div>
+      <Lol />
     </Container>
-    <NavbarApp />
+    <NavbarApp className="marginBottom" />
   </div>
 );
 
-export default SettingPage;
+export default MonitoringPage;

@@ -230,7 +230,7 @@ p {
     margin-bottom: 20px;
     color: white;
     h4 {
-        text-transform: uppercase
+        text-transform: uppercase;
     }
 }
 
@@ -241,18 +241,14 @@ p {
     color: white;
     height: 80px;
     border-top: white solid 2px;
-
     .row {
         height: 100%;
-
         a {
             color: white;
         }
-
         .side {
             height: 100%;
         }
-    
         .center {
             height: 100%;
             border-left: white solid 2px;
@@ -263,4 +259,13 @@ p {
 
 .marginBottom {
     margin-bottom: 120px;
+}
+
+.nb {
+    font-size: 28px;
+    color: $primary;
+}
+
+.progress>div {
+    background-color: $primary;
 }
