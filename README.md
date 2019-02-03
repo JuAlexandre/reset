@@ -1,26 +1,13 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# reset
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+**Techstars Startup Weekend Orléans #7** - 25-26-27 Mai 2018
 
-## Install
+Creation of a site with **ReactJS** and **Gatsby** to promote a connected cocoon allowing employees to relax during their break.
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+We postponed the 3rd Jury prize!
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
+## Authors
 
-Then you can run it by:
-```sh
-cd gatsby-example-site
-npm run develop
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+* [Paul CAILLY](https://github.com/PaulCailly)
+* [Jérôme LEGRAND](https://github.com/jeromelegrand)
+* [Julien ALEXANDRE](https://github.com/JuAlexandre)
